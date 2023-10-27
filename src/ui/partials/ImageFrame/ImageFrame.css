@@ -1,0 +1,10 @@
+.frameImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid #BB99DD 2px;
+    padding: 3px;
+}
+.frameImg:hover {
+    transform: scale(1.05);
+}

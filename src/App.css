@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  width: 414px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 7.5rem 2.75rem 2.75rem 2.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  #container {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #container {
+    width: 220px;
+  }
+}

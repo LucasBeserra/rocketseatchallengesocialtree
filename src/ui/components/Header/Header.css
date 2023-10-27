@@ -1,0 +1,14 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo a {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #BB99DD;
+}
+.photo a:hover {
+    transform: scale(1.05);
+}
